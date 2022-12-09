@@ -16,10 +16,44 @@ h1 {
     padding-top: 3rem;
 }
   
-.ans {
+.ans1 {
     text-align: center;
     margin-left: 1rem;
+    color: rgb(26, 255, 0);
+    text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), 1px 1px 0 #000;
+    background-color: #7e7e7e;
+    border-radius: 1rem;
 }
+.ans2 {
+    text-align: center;
+    margin-left: 1rem;
+    color: rgb(26, 255, 0);
+    text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), 1px 1px 0 #000;
+    background-color: #7e7e7e;
+    border-radius: 1rem;
+}
+.ans3 {
+    text-align: center;
+    margin-left: 1rem;
+    color: rgb(26, 255, 0);
+    text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), 1px 1px 0 #000;
+    background-color: #7e7e7e;
+    border-radius: 1rem;
+}
+.ans4 {
+    text-align: center;
+    margin-left: 1rem;
+    color: rgb(26, 255, 0);
+    text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), 1px 1px 0 #000;
+    background-color: #7e7e7e;
+    border-radius: 1rem;
+}
+
+#q{
+    color: rgb(0, 0, 0);
+    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+}
+
 
 #questions {
     text-align: center;
