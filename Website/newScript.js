@@ -56,27 +56,25 @@ const setQuestion = (index) => {
     ans = questions[index][5]
 }
 
-const correctAns = (score) => {
-    $("#score").text(score + 100)
-}
 
 $(document).ready( () =>{
     const numbers = Array.from({length: 15}, (x, i) => i + 1);
     numbers.sort(() => Math.random() - 0.5);
     const indexs = numbers.slice(0, 10);
     
-    let score = 0
     setQuestion(indexs[0])
+    let score = 0
     let questionNumber = 0;
     $("#questionNumber").text(questionNumber + 1)
     if (parseInt($("#questionNumber").text()) < 10) {
         
         $(".ans1").click( () => {
             if (parseInt(ans) == parseInt($(".ans1").attr("id"))) {
-                correctAns(score)
                 questionNumber ++
+                score ++
                 setQuestion(questionNumber)
                 $("#questionNumber").text(questionNumber + 1)
+                $("#score").text(score)
             } else {
                 questionNumber++
                 setQuestion(questionNumber)
@@ -85,10 +83,11 @@ $(document).ready( () =>{
         })
         $(".ans2").click( () => {
             if (parseInt(ans) == parseInt($(".ans2").attr("id"))) {
-                correctAns(score)
                 questionNumber ++
+                score ++
                 setQuestion(questionNumber)
                 $("#questionNumber").text(questionNumber + 1)
+                $("#score").text(score)
             } else {
                 questionNumber++
                 setQuestion(questionNumber)
@@ -97,10 +96,11 @@ $(document).ready( () =>{
         })
         $(".ans3").click( () => {
             if (parseInt(ans) == parseInt($(".ans3").attr("id"))) {
-                correctAns(score)
                 questionNumber ++
+                score ++
                 setQuestion(questionNumber)
                 $("#questionNumber").text(questionNumber + 1)
+                $("#score").text(score)
             } else {
                 questionNumber++
                 setQuestion(questionNumber)
@@ -109,10 +109,11 @@ $(document).ready( () =>{
         })
         $(".ans4").click( () => {
             if (parseInt(ans) == parseInt($(".ans4").attr("id"))) {
-                $("#score").text(score + 100)
                 questionNumber ++
+                score ++
                 setQuestion(questionNumber)
                 $("#questionNumber").text(questionNumber + 1)
+                $("#score").text(score)
             } else {
                 questionNumber++
                 setQuestion(questionNumber)
