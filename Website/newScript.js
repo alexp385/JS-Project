@@ -72,9 +72,9 @@ $(document).ready( () =>{
             if (parseInt(ans) == parseInt($(".ans1").attr("id"))) {
                 questionNumber ++
                 score ++
+                $("#score").text(score)
                 setQuestion(questionNumber)
                 $("#questionNumber").text(questionNumber + 1)
-                $("#score").text(score)
             } else {
                 questionNumber++
                 setQuestion(questionNumber)
@@ -85,9 +85,9 @@ $(document).ready( () =>{
             if (parseInt(ans) == parseInt($(".ans2").attr("id"))) {
                 questionNumber ++
                 score ++
+                $("#score").text(score)
                 setQuestion(questionNumber)
                 $("#questionNumber").text(questionNumber + 1)
-                $("#score").text(score)
             } else {
                 questionNumber++
                 setQuestion(questionNumber)
@@ -98,9 +98,9 @@ $(document).ready( () =>{
             if (parseInt(ans) == parseInt($(".ans3").attr("id"))) {
                 questionNumber ++
                 score ++
+                $("#score").text(score)
                 setQuestion(questionNumber)
                 $("#questionNumber").text(questionNumber + 1)
-                $("#score").text(score)
             } else {
                 questionNumber++
                 setQuestion(questionNumber)
@@ -111,9 +111,9 @@ $(document).ready( () =>{
             if (parseInt(ans) == parseInt($(".ans4").attr("id"))) {
                 questionNumber ++
                 score ++
+                $("#score").text(score)
                 setQuestion(questionNumber)
                 $("#questionNumber").text(questionNumber + 1)
-                $("#score").text(score)
             } else {
                 questionNumber++
                 setQuestion(questionNumber)
